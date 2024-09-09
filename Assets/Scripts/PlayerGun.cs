@@ -35,7 +35,7 @@ public class PlayerGun : MonoBehaviour
         bulletSpeed = playerStats.playerShotSpeed;
         firingRate = playerStats.playerFireRate;
 
-        shoot = Input.GetKey(KeyCode.Space);
+        shoot = Input.GetKey(KeyCode.C);
 
         if (shoot) 
         {
